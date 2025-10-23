@@ -11,4 +11,4 @@ while work:
     elif a > guessnum:
         print("Bzdura, less")
     elif a < guessnum:
-        print("Bzdura, more")
+        print("Bzdura, wiecej")
