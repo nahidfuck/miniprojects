@@ -4,11 +4,11 @@ work = True
 guessnum = random.randrange(1, 101)
 
 while work:
-    a = int(input("Вгадай число від 1 до 100: "))
+    a = int(input("Guess number from 1 to 100: "))
     if a == guessnum:
         print("Legend, koniec zabawy")
         work = False
     elif a > guessnum:
-        print("Bzdura, mniej")
+        print("Bzdura, less")
     elif a < guessnum:
-        print("Bzdura, wiecej")
+        print("Bzdura, more")
