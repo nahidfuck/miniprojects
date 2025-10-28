@@ -1,14 +1,14 @@
 import string
 work = True
 while work:
-    password = input("Napisz swoje hasło:")
+    password = input("Enter your password:")
 
     if len(password) > 11 and any(char.isupper() for char in password) and any(char.islower() for char in password) and any(char.isdigit() for char in password) and any(i in string.punctuation for i in password):
-        print("Hasło jest mocne.")
+        print("Password is strong.")
         work = False
     elif any(char.isupper() for char in password) and any(char.islower() for char in password) and any(char.isdigit() for char in password):
-        print("Hasło jest śriednie.")
+        print("Password is ok.")
         work = False
     else:
-        print("Hasło jest za słabe. Wprowadź silniejsze hasło.\nMusi być co najmniej 8 znaków, cyfr oraz wielkie i małe litery.")
+        print("Password is too weak. Make it stronger.\nThere should be more characters, numbers and characters of punctuation.")
 
