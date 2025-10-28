@@ -4,3 +4,4 @@ Collection of my small Python practice scripts.
 - `squareOfTheEquation.py` — solves a quadratic equation given the arguments a, b, c
 - `gameGuessNumber.py` — a game in which you guess a number from 1 to 100
 - `hangman.py` — a game in which you guess a word by letters
+- `passwordchecker.py` — strength checker of your password
