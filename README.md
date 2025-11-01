@@ -5,4 +5,4 @@ Collection of my small Python practice scripts.
 - `hangman.py` — a game in which you guess a word by letters
 - `passwordchecker.py` — strength checker of your password
 - `pomodoroTimer.py` — timer for your work
-- `contactManager.py` - add, search your contacts
+- `contactManager.py` - manager of your contacts on json
